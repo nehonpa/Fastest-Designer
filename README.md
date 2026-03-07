@@ -3,6 +3,10 @@
 </p>
 
 <h1 align="center">Fastest Designer</h1>
+<p align="center">
+  ⭐ If Fastest Designer interests you, a star lets me know you're here.<br>
+  如果 Fastest Designer 引起了你的兴趣，一个 Star 就能让我知道你来过
+</p>
 
 <p align="center">
 Design → Logic → Debug → Release<br>
@@ -12,6 +16,13 @@ A full-cycle Python application creation platform.<br>
 </p>
 
 ---
+## 🎬 Fastest Designer in Action
+Teaching Mode enabled — every UI action generates Python code in real time.
+教学模式开启 —— 每一次界面操作都会实时生成 Python 代码。
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4d2a1d4c-87b8-48c7-918c-ce52d5aac412" width="90%">
+</p>
+
 
 # 🚀 What Is Fastest Designer?
 ###  什么是 Fastest Designer？
