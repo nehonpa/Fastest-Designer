@@ -123,6 +123,10 @@ Designed for global creators.
 **Persistent Drafts — Save and restore anytime**  
 持久存储 —— 草稿随时保存与加载  
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/963233d5-525f-44b7-83af-f5057617e49c" width="80%">
+</p>
+
 ---
 
 ## 🧠 Dual-Mode Architecture
