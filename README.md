@@ -125,6 +125,9 @@ Designed for global creators.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/963233d5-525f-44b7-83af-f5057617e49c" width="80%">
+  <img src="https://github.com/user-attachments/assets/fb491e33-7753-4d82-bf33-9e813f6cc846" width="80%">
+  
+
 </p>
 
 ---
