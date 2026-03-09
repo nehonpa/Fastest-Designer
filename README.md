@@ -4,20 +4,22 @@
 
 <h1 align="center">Fastest Designer</h1>
 <p align="center">
+  A new way to build Python GUI applications.<br>
+  一种构建 Python GUI 应用的全新方式。<br><br>
+  Design → Logic → Debug → Release<br>
+  设计 → 逻辑 → 调试 → 发布
+  
+</p>
+<p align="center">
   ⭐ If Fastest Designer interests you, a star lets me know you're here.<br>
   如果 Fastest Designer 引起了你的兴趣，一个 Star 就能让我知道你来过
 </p>
 
-<p align="center">
-Design → Logic → Debug → Release<br>
-设计 → 逻辑 → 调试 → 发布<br><br>
-A full-cycle Python application creation platform.<br>
-一个全周期 Python 应用程序创作平台。
-</p>
+
 
 ---
 ## 🎬 Fastest Designer in Action
-Teaching Mode enabled — every UI action generates Python code in real time.
+Teaching Mode — every UI action generates Python code in real time.
 教学模式开启 —— 每一次界面操作都会实时生成 Python 代码。
 <p align="center">
   <img src="https://github.com/user-attachments/assets/15f2a8bd-aa43-444e-846b-a18b580ad371" width="100%">
@@ -42,17 +44,30 @@ Not just a visual editor — but a real, executable component tree builder.
 ## ❤️ Built on Dear PyGui
 ### ❤️ 基于 Dear PyGui 构建
 
-Fastest Designer fully adopts the native API and usage patterns of Dear PyGui.  
-Fastest Designer 完全采用 Dear PyGui 的原生 API 与使用方式。
+Fastest Designer is built on top of  
+[Dear PyGui](https://github.com/hoffstadt/DearPyGui),
+an extremely fast Python GUI framework.
 
-No DSL. No new syntax. No abstraction layer.  
-没有 DSL。没有新语法。没有额外抽象层。
+Fastest Designer 基于  
+[Dear PyGui](https://github.com/hoffstadt/DearPyGui) 构建，
+这是一个极其高性能的 Python GUI 框架。
+
+Fastest Designer fully adopts its native API and usage patterns.  
+Fastest Designer 完全采用其原生 API 与使用方式。
+
+No DSL.  
+No new syntax.  
+No abstraction layer.
+
+没有 DSL。  
+没有新语法。  
+没有额外抽象层。
 
 Everything generated is standard Python code.  
 所有生成内容均为标准 Python 代码。
 
 The goal is simple:  
-Make UI creation faster — without changing how you write Python.  
+Build UI faster — without changing how you write Python.
 
 目标很简单：  
 在不改变你编写 Python 方式的前提下，让 UI 创作更高效。
@@ -61,6 +76,11 @@ Make UI creation faster — without changing how you write Python.
 
 # ⚡ Core Capabilities
 ###  核心能力
+Fastest Designer is built around three principles:
+speed, flexibility, and real Python output.
+
+Fastest Designer 围绕三个核心理念构建：
+速度、灵活性与真实 Python 代码输出。
 
 ## 🔥 Performance
 ###  极速性能
@@ -71,7 +91,7 @@ GPU 渲染架构 —— 基于 Dear PyGui 的 C/C++ 底层实现
 **Million-Point Graphs — 1M+ datapoints at 60 FPS**  
 百万级图表 —— 60 FPS 显示超过 100 万数据点  
 
-**Full Compatibility — Supports DPG 1.0+ ecosystem**  
+**Full Compatibility — Works across the DPG 1.0+ ecosystem**  
 全版本兼容 —— 支持 DPG 1.0+ 全生态  
 
 **Complete Widget Coverage**  
@@ -99,14 +119,18 @@ Designed for global creators.
 
 ---
 
-## 🎨 F & D
+## 🎨 Fastest & Designer
 
-### F is Fastest.  
-### D is Designer.  
+### Fastest is more than speed.  
+### Designer is more than a tool.
+
+
 ### But is that all?
 
-### 你真的认为，它仅此而已吗？
+#### Fastest 代表速度、Designer 作为设计工具。
+#### 可是，你真的认为，它仅此而已吗？
 
+---
 
 **Design Freedom — Real interactive component trees**  
 设计自由 —— 构建真实可交互的组件树  
@@ -133,7 +157,7 @@ Designed for global creators.
 ---
 
 ## 🧠 Dual-Mode Architecture
-###  双模式架构
+### 双模式架构
 
 **Visual Design + Live Logic Binding**  
 可视化设计 + 实时逻辑绑定  
@@ -141,14 +165,81 @@ Designed for global creators.
 **Hot Reload — Modify logic without restarting**  
 热加载 —— 无需重启即可修改逻辑  
 
-**Zero Repetition — Auto-bind events during generation**  
-拒绝重复劳动 —— 自动绑定设计阶段事件  
+**Project-Scoped Modules — Each project can include its own third-party libraries**  
+项目级模块隔离 —— 每个项目可以携带独立的第三方库  
+
+**Flexible Python Runtime — Use system Python or built-in runtimes**  
+灵活 Python 运行环境 —— 支持系统 Python 或内置运行时，即使系统未安装 Python 也能编写和运行 Python 项目  
+
+**pip Integration — Install Python packages directly inside the designer**  
+pip 集成 —— 无需离开设计器即可安装 Python 模块  
+
+**Zero Repetition — Events are automatically bound during generation**  
+拒绝重复劳动 —— 设计阶段的事件将在生成代码时自动绑定  
 
 **Native Output — Pure Python source code**  
-原生代码 —— 纯 Python 源码输出  
+原生代码 —— 生成纯 Python 源码  
 
-**No Extra Syntax — Just Python, just `import`**  
-无新语法 —— 仅需一句 `import`  
+**No Plugins, No Extra Syntax — Just Python, just `import`**  
+无需插件，无新语法 —— 只需 Python，只需 `import`
+
+---
+
+## ♻️ Reusable Assets
+### 资源复用
+
+Design once. Use anywhere.  
+一次设计，多处复用。
+
+Fastest Designer allows exporting any part of a project
+as reusable resources.
+
+Fastest Designer 支持将项目中的任意部分
+导出为可复用资源。
+
+Resources can be exported in two formats:
+
+资源可以导出为两种格式：
+
+- **Pure Python code** — ready to use in any project  
+  **纯 Python 代码** —— 可直接在任何项目中使用  
+
+- **FD resource files** — portable design assets that can be shared or distributed  
+  **FD 资源文件** —— 可分享、可分发的设计资源包
+
+
+**Exportable resources include:**  
+支持导出的资源包括：
+
+- UI component trees  
+  UI 组件树  
+
+- Theme configurations  
+  组件主题配置  
+
+- Color mappings  
+  颜色映射  
+
+- Event handlers  
+  事件监听  
+
+- Interaction logic snippets  
+  交互逻辑片段  
+
+- **Interface skins and visual styles**  
+  **界面皮肤与视觉风格**
+
+Themes, skins, and UI structures can be exported,
+shared across projects, or distributed as reusable resources.
+
+主题、皮肤与 UI 结构都可以导出，
+在不同项目间共享，或作为可复用资源进行分发。
+
+All exported Python resources remain **standard Python code**.  
+No proprietary runtime required.
+
+所有导出的 Python 资源均为 **标准 Python 代码**，  
+无需任何专有运行环境。
 
 ---
 
@@ -248,8 +339,14 @@ Pro lets you deliver.
 免费让你设计。  
 专业版让你交付。
 
----
 
+**Fastest Designer is distributed as proprietary software.**  
+**The repository hosts releases and customizable resources.**
+
+**Fastest Designer 为专有软件发布。**  
+**本仓库主要提供程序发布包与可自定义资源。**
+
+---
 # 📜 License
 ### 许可证
 
@@ -288,6 +385,7 @@ You own the result.
 我的软件属于我。  
 你的成果属于你。
 
-Must power always come at a high cost?
+---
+# ❓️ Must power always come at a high price?
 
-强大，真的一定昂贵吗？
+## 强大，真的一定要昂贵吗？
