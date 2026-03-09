@@ -183,6 +183,9 @@ pip 集成 —— 无需离开设计器即可安装 Python 模块
 **No Plugins, No Extra Syntax — Just Python, just `import`**  
 无需插件，无新语法 —— 只需 Python，只需 `import`
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a4d83451-0b4e-4b03-8c7d-1bf3e48103d8" width="100%">
+</p>
 ---
 
 ## ♻️ Reusable Assets
