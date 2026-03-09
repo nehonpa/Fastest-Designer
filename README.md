@@ -151,7 +151,6 @@ Designed for global creators.
   <img src="https://github.com/user-attachments/assets/963233d5-525f-44b7-83af-f5057617e49c" width="80%">
   <img src="https://github.com/user-attachments/assets/fb491e33-7753-4d82-bf33-9e813f6cc846" width="80%">
   
-
 </p>
 
 ---
@@ -186,6 +185,7 @@ pip 集成 —— 无需离开设计器即可安装 Python 模块
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a4d83451-0b4e-4b03-8c7d-1bf3e48103d8" width="100%">
 </p>
+
 ---
 
 ## ♻️ Reusable Assets
@@ -389,6 +389,13 @@ You own the result.
 你的成果属于你。
 
 ---
-# ❓️ Must power always come at a high price?
+<h1 align="center">
+❓ Must power always come at a high price?<br>
+强大，真的一定要昂贵吗？
+</h1>
 
-## 强大，真的一定要昂贵吗？
+<h3 align="center">
+🕒 Launching Late April 2026<br>
+2026 年 4 月底发布 · 敬请期待
+</h3>
+
