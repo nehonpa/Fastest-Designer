@@ -374,12 +374,6 @@ Fastest Designer（专业版）生成的代码
 The copyright of generated code belongs to its creator.  
 生成代码的版权归创建者所有。
 
-You may use, modify, and distribute your generated code freely,  
-provided that the MIT license notice is retained.  
-
-在保留 MIT 许可声明的前提下，  
-你可以自由使用、修改与分发生成代码。
-
 ---
 
 We build the tool.  
