@@ -389,7 +389,7 @@ You own the result.
 </h1>
 
 <h3 align="center">
-🕒 Launching Late April 2026<br>
-2026 年 4 月底发布 · 敬请期待
+⚡ Official Release — April 30, 2026<br>
+2026 年 4 月 30 日正式发布 · 敬请期待
 </h3>
 
