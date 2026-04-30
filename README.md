@@ -383,13 +383,14 @@ You own the result.
 你的成果属于你。
 
 ---
-<h1 align="center">
-❓ Must power always come at a high price?<br>
-强大，真的一定要昂贵吗？
-</h1>
-
 <h3 align="center">
 ⚡ Official Release — April 30, 2026<br>
-2026 年 4 月 30 日正式发布 · 敬请期待
+2026 年 4 月 30 日（咕了） · Coming Soon
+
+Yeah… we missed the date (blame the server).<br>
+是的，我们鸽了（锅在服务器），但我们会带着更好的版本回来——也许还有一点小惊喜。
+
+Still building. Still refining.<br>
+仍在打磨，仍在进化。
 </h3>
 
