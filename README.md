@@ -4,30 +4,37 @@
 
 <h1 align="center">Fastest Designer</h1>
 <p align="center">
-  A new way to build Python GUI applications.<br>
-  一种构建 Python GUI 应用的全新方式。<br><br>
+   A new way to build Python GUI applications — visually, and in real code.<br>
+  一种以可视化方式构建真实 Python GUI 应用的新方式。<br><br>
   Design → Logic → Debug → Release<br>
   设计 → 逻辑 → 调试 → 发布
-  
+
 </p>
+
 <p align="center">
   ⭐ If Fastest Designer interests you, a star lets me know you're here.<br>
-  如果 Fastest Designer 引起了你的兴趣，一个 Star 就能让我知道你来过
+  ⭐ 如果你喜欢它，一个 Star 就是最大的支持。
 </p>
+
 
 
 
 ---
+
 ## 🎬 Fastest Designer in Action
+
 Teaching Mode — every UI action generates Python code in real time.
 教学模式开启 —— 每一次界面操作都会实时生成 Python 代码。
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/15f2a8bd-aa43-444e-846b-a18b580ad371" width="100%">
+
 
 </p>
 
 
 # 🚀 What Is Fastest Designer?
+
 ###  什么是 Fastest Designer？
 
 Fastest Designer is a full-workflow application builder built on top of Dear PyGui.  
@@ -42,6 +49,7 @@ Not just a visual editor — but a real, executable component tree builder.
 ---
 
 ## ❤️ Built on Dear PyGui
+
 ### ❤️ 基于 Dear PyGui 构建
 
 Fastest Designer is built on top of  
@@ -55,13 +63,8 @@ Fastest Designer 基于
 Fastest Designer fully adopts its native API and usage patterns.  
 Fastest Designer 完全采用其原生 API 与使用方式。
 
-No DSL.  
-No new syntax.  
-No abstraction layer.
-
-没有 DSL。  
-没有新语法。  
-没有额外抽象层。
+No DSL. No new syntax. No abstraction layer.  
+没有 DSL，没有新语法，没有额外抽象层。
 
 Everything generated is standard Python code.  
 所有生成内容均为标准 Python 代码。
@@ -69,20 +72,21 @@ Everything generated is standard Python code.
 The goal is simple:  
 Build UI faster — without changing how you write Python.
 
-目标很简单：  
-在不改变你编写 Python 方式的前提下，让 UI 创作更高效。
+目标很简单：在不改变你编写 Python 方式的前提下，让 UI 创作更高效。
 
 ---
 
 # ⚡ Core Capabilities
+
 ###  核心能力
+
 Fastest Designer is built around three principles:
 speed, flexibility, and real Python output.
 
-Fastest Designer 围绕三个核心理念构建：
-速度、灵活性与真实 Python 代码输出。
+Fastest Designer 围绕三个核心理念构建：速度、灵活性与真实 Python 代码输出。
 
 ## 🔥 Performance
+
 ###  极速性能
 
 **GPU Rendering Architecture — Powered by Dear PyGui’s C/C++ backend**  
@@ -100,6 +104,7 @@ GPU 渲染架构 —— 基于 Dear PyGui 的 C/C++ 底层实现
 ---
 
 ## 🌍 Global Ready
+
 ###  全球化支持
 
 Designed for global creators.  
@@ -122,12 +127,14 @@ Designed for global creators.
 ## 🎨 Fastest & Designer
 
 ### Fastest is more than speed.  
+
 ### Designer is more than a tool.
 
 
 ### But is that all?
 
 #### Fastest 代表速度、Designer 作为设计工具。
+
 #### 可是，你真的认为，它仅此而已吗？
 
 ---
@@ -150,12 +157,14 @@ Designed for global creators.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/963233d5-525f-44b7-83af-f5057617e49c" width="80%">
   <img src="https://github.com/user-attachments/assets/fb491e33-7753-4d82-bf33-9e813f6cc846" width="80%">
-  
+
+
 </p>
 
 ---
 
 ## 🧠 Dual-Mode Architecture
+
 ### 双模式架构
 
 **Visual Design + Live Logic Binding**  
@@ -186,9 +195,11 @@ pip 集成 —— 无需离开设计器即可安装 Python 模块
   <img src="https://github.com/user-attachments/assets/a4d83451-0b4e-4b03-8c7d-1bf3e48103d8" width="100%">
 </p>
 
+
 ---
 
 ## ♻️ Reusable Assets
+
 ### 资源复用
 
 Design once. Use anywhere.  
@@ -241,12 +252,14 @@ shared across projects, or distributed as reusable resources.
 All exported Python resources remain **standard Python code**.  
 No proprietary runtime required.
 
-所有导出的 Python 资源均为 **标准 Python 代码**，  
+所有导出的 Python 资源均为 **标准 Python 代码**，
+
 无需任何专有运行环境。
 
 ---
 
 ## 🛠 Developer Friendly
+
 ###  开发者友好
 
 **Structured Generation — HTML-like hierarchy clarity**  
@@ -264,6 +277,7 @@ No proprietary runtime required.
 ---
 
 ## 📦 Workflow Completion
+
 ###  完整工作流
 
 1. Design UI visually  
@@ -286,7 +300,8 @@ All inside one environment.
 
 ---
 
-# 🎯 Who Is It For?
+# 👥 Who Is It For?
+
 ### 适用人群
 
 - Designers avoiding boilerplate  
@@ -302,55 +317,89 @@ All inside one environment.
   需要统一界面结构的团队  
 
 ---
-# 💎 Editions
-### 版本说明
 
-## 🆓 Free — Visual Designer
-### 🆓 免费版 —— 可视化设计
+# 💎 Editions & Comparison
 
-UI structure design  
-组件结构设计  
+### 版本说明与功能对照
 
-Theme exploration  
-主题与样式探索  
+| Feature                     | 功能                 | Free 免费版                               | Pro 专业版                      |
+| --------------------------- | -------------------- | ----------------------------------------- | ------------------------------- |
+| Visual UI Design            | 可视化界面设计       | ✔                                         | ✔                               |
+| Component Tree Editing      | 组件树编辑           | ✔                                         | ✔                               |
+| Theme & Style Editing       | 主题与样式编辑       | ✔                                         | ✔                               |
+| Basic Preview               | 基础预览运行         | ✔                                         | ✔                               |
+| Project Save                | 项目保存             | ✔ Local only（本地保存）                  | ✔                               |
+| Python Code Generation      | Python 代码生成      | ✔ Limited Component Count（组件数量限制） | ✔ Full project system(完整代码) |
+| Packaging & Release         | 打包与发布           | ✔                                         | ✔                               |
+| Multi-Interpreter Support   | 多解释器支持         | ❌                                         | ✔                               |
+| Hot Reload                  | 热加载开发模式       | ✔                                         | ✔                               |
+| Advanced Workflow Tools     | 高级工作流工具       | ❌                                         | ✔                               |
+| Live Python Code Generation | 实时 Python 代码生成 | ❌                                         | ✔                               |
+| Project Resource Sharing    | 项目资源分享         | ❌                                         | ✔                               |
 
-Component tree editing  
-组件树编辑  
+## 💰 Pricing / 价格
+
+##  Pro:  **$3 / 30 days**
+
+- No auto-renewal（无自动续费）
+- Taxes may apply（可能产生税费）
+  
+## ⚖️ 版本定位 / Positioning
+
+```
+Free is for design and exploration.  
+免费版用于设计与体验探索。
+
+Pro is for full development and release.  
+专业版用于完整开发与发布。
+```
+
+---
+
+## 📢 Notice / 通知
+
+**Temporary free access to Pro features until July 30, 2026.  **
+
+专业版功能限时免费开放至 2026 年 7 月 30 日。
+
+Requires online activation.  
+需要联网激活。
 
 ---
 
-## 💎 Pro — Full Workflow
-#### 专业版 —— 完整工作流
+## 🚀 Future Roadmap / 未来规划
 
-Preview  
-独立预览  
+We are building what you haven't imagined yet.  
+我们正在构建一些你还没想到的东西。
 
-Project saving  
-项目保存  
+What comes next?  
+下一步会是什么？
 
-Code generation  
-代码生成  
-
-Packaging  
-打包发布  
+You’ll see.  
+敬请期待。
 
 ---
 
-Free lets you design.  
-Pro lets you deliver.  
+## Generated Code
 
-免费让你设计。  
-专业版让你交付。
+## 生成代码
 
+Code generated by Fastest Designer (Pro edition)
+is licensed under the MIT License.
 
-**Fastest Designer is distributed as proprietary software.**  
-**The repository hosts releases and customizable resources.**
+Fastest Designer（专业版）生成的代码  
+采用 MIT 许可证模板。
 
-**Fastest Designer 为专有软件发布。**  
-**本仓库主要提供程序发布包与可自定义资源。**
+The copyright of generated code belongs to its creator.  
+生成代码的版权归创建者所有。
 
----
+We build the tool. You build the product.  
+我们构建工具，你构建作品。
+
+----
+
 # 📜 License
+
 ### 许可证
 
 ## Fastest Designer
@@ -362,35 +411,8 @@ Proprietary software.
 
 ---
 
-## Generated Code
-## 生成代码
- 
-Code generated by Fastest Designer (Pro edition)
-is licensed under the MIT License.
+**Fastest Designer is distributed as proprietary software.**  
+**The repository hosts releases and customizable resources.**
 
-Fastest Designer（专业版）生成的代码  
-采用 MIT 许可证模板。
-
-The copyright of generated code belongs to its creator.  
-生成代码的版权归创建者所有。
-
----
-
-We build the tool.  
-You own the result.  
-
-我的软件属于我。  
-你的成果属于你。
-
----
-<h3 align="center">
-⚡ Official Release — April 30, 2026<br>
-2026 年 4 月 30 日（咕了） · Coming Soon
-
-Yeah… we missed the date (blame the server).<br>
-是的，我们鸽了（锅在服务器），但我们会带着更好的版本回来——也许还有一点小惊喜。
-
-Still building. Still refining.<br>
-仍在打磨，仍在进化。
-</h3>
-
+**Fastest Designer 为专有软件发布。**  
+**本仓库主要提供程序发布包与可自定义资源。**
