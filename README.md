@@ -300,6 +300,7 @@ All inside one environment.
 
 ---
 # Quick Start
+## 快速上手
 ## 1.Create a Project / 创建项目
 <img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/7ea67b9f-7a91-4e8f-b420-ca1bcd7a7847" />
 
