@@ -299,7 +299,39 @@ All inside one environment.
 全部在同一个环境中完成。
 
 ---
+# Quick Start
+## 1.Create a Project / 创建项目
+<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/7ea67b9f-7a91-4e8f-b420-ca1bcd7a7847" />
 
+## 2.Create Components / 创建组件
+<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/8f21d999-972e-4681-94ab-288bc770ff2f" />
+
+## 3.Preview UI / 预览效果
+<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/bc3f573e-a70b-453b-91d7-175832831011" />
+<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/ccd952e8-2133-4d31-a595-e2a91db872ba" />
+
+## 4.Generate Python Code / 生成代码
+<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/b5532b28-14d1-407a-88a1-79f2b00fe68c" />
+<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/dd4057a8-777c-4b28-b6d6-03fb20603887" />
+
+## 5. More / 更多高级操作
+For more advanced tutorials, feature demonstrations, and the latest updates, please follow:
+
+更多高级教程、功能演示以及最新动态，请关注：
+
+### Bilibili
+
+https://space.bilibili.com/34141306
+
+### X (formerly Twitter)
+
+https://x.com/NeHonBa
+
+You can also check the latest Quick Start videos, feature introductions, and development updates on these platforms.
+
+您还可以在这些平台查看最新的快速入门教程、功能介绍以及开发进展。
+
+------
 # 👥 Who Is It For?
 
 ### 适用人群
