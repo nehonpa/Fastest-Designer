@@ -1,7 +1,8 @@
 <p align="center">   <img src="https://github.com/user-attachments/assets/cbcf02d4-8d16-4d65-831b-57009f87334c" width="50%"> </p>  <h2 align="center"> 让 Python 应用开发，从代码驱动走向实时交互 </h2>  <h2 align="center"> 让创意与实现之间，不再存在时间差 </h2>  <p align="center">
   <a href="README_en.md">
-    EN English
+    English
   </a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://github.com/nehonpa/Fastest-Designer/releases">
     🚀 下载最新版
   </a>
