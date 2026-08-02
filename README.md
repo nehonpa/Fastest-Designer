@@ -1,324 +1,445 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cbcf02d4-8d16-4d65-831b-57009f87334c" width="60%">
-</p>
-
-<h1 align="center">Fastest Designer</h1>
-<p align="center">
-   A new way to build Python GUI applications — visually, and in real code.<br>
-  一种以可视化方式构建真实 Python GUI 应用的新方式。<br><br>
-  Design → Logic → Debug → Release<br>
-  设计 → 逻辑 → 调试 → 发布
-
-</p>
-
-<p align="center">
-  ⭐ If Fastest Designer interests you, a star lets me know you're here.<br>
-  ⭐ 如果你喜欢它，一个 Star 就是最大的支持。
-</p>
-
-
-
-
----
-
-## 🎬 Fastest Designer in Action
-
-Teaching Mode — every UI action generates Python code in real time.
-教学模式开启 —— 每一次界面操作都会实时生成 Python 代码。
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/15f2a8bd-aa43-444e-846b-a18b580ad371" width="100%">
-
-
+<p align="center">   <img src="https://github.com/user-attachments/assets/cbcf02d4-8d16-4d65-831b-57009f87334c" width="50%"> </p>  <h2 align="center"> 让 Python 应用开发，从代码驱动走向实时交互 </h2>  <h2 align="center"> 让创意与实现之间，不再存在时间差 </h2>  <p align="center">
+  <a href="https://github.com/nehonpa/Fastest-Designer/releases">
+    🚀 下载最新版
+  </a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#features">
+    ✨ 核心特性
+  </a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#quick-start">
+    ⚡ 快速开始
+  </a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#tutorials">
+    🎬 教程与动态
+  </a>
 </p>
 
 
-# 🚀 What Is Fastest Designer?
+# <a id="features"></a>  
 
-###  什么是 Fastest Designer？
+# ❓️ 什么是 Fastest Designer
 
-Fastest Designer is a full-workflow application builder built on top of Dear PyGui.  
-Fastest Designer 是一个构建于 Dear PyGui 之上的完整工作流应用程序创作平台。
+Fastest Designer（FD）是一款面向 Python 开发者的可视化应用构建工具。  
 
-It connects UI design, interaction logic, debugging, and packaging into one unified environment.  
-它将界面设计、交互逻辑、调试与发布整合为一个统一的环境。
+它不是简单的代码生成器，  也不是脱离代码的可视化编辑器。
 
-Not just a visual editor — but a real, executable component tree builder.  
-它不仅仅是一个可视化编辑器——而是真正可执行的组件树构建器。
+它连接 Python 代码与真实运行效果，  让 Python 应用开发拥有实时可视化交互能力。
 
----
+**没有新的语法，**
 
-## ❤️ Built on Dear PyGui
+**无需改变你的项目结构，** 
 
-### ❤️ 基于 Dear PyGui 构建
+**无需改变你的代码，** 
 
-Fastest Designer is built on top of  
-[Dear PyGui](https://github.com/hoffstadt/DearPyGui),
-an extremely fast Python GUI framework.
+**无需改变你的工作习惯。** 
 
-Fastest Designer 基于  
-[Dear PyGui](https://github.com/hoffstadt/DearPyGui) 构建，
-这是一个极其高性能的 Python GUI 框架。
+### ——只改变你在开发应用时，与代码之间的交互方式。 
 
-Fastest Designer fully adopts its native API and usage patterns.  
-Fastest Designer 完全采用其原生 API 与使用方式。
+-------
 
-No DSL. No new syntax. No abstraction layer.  
-没有 DSL，没有新语法，没有额外抽象层。
+# ✨ 为什么需要 Fastest Designer？
 
-Everything generated is standard Python code.  
-所有生成内容均为标准 Python 代码。
+你是否还在重复这样的开发流程？
 
-The goal is simple:  
-Build UI faster — without changing how you write Python.
+一个简单的想法，却需要经历一场漫长的旅程：
 
-目标很简单：在不改变你编写 Python 方式的前提下，让 UI 创作更高效。
+- 只是想快速完成一个小工具，
+  却需要先学习一整套新的 UI 开发语法。
 
----
+- 修改一个简单的界面参数，
+  却需要不断运行程序，
+  等待结果，再重新调整。
 
-# ⚡ Core Capabilities
+- 使用 AI 生成代码后，
+  却仍然需要不断运行程序，
+  确认生成结果是否符合预期。
 
-###  核心能力
+- UI 设计与交互逻辑分离，
+  一个想法需要同时修改多个地方才能验证。
 
-Fastest Designer is built around three principles:
-speed, flexibility, and real Python output.
+- 使用 Designer 生成界面后，
+  仍然需要手动补充大量事件绑定代码。
 
-Fastest Designer 围绕三个核心理念构建：速度、灵活性与真实 Python 代码输出。
+- 想制作一个现代化的应用界面，
+  却需要在框架大小、运行环境和开发成本之间反复权衡。
 
-## 🔥 Performance
+- 应用完成之后，
+  又要面对打包、依赖、环境配置带来的额外问题。
 
-###  极速性能
+- 当已有界面需要修改或复用时，往往又需要重新造轮子。
 
-**GPU Rendering Architecture — Powered by Dear PyGui’s C/C++ backend**  
-GPU 渲染架构 —— 基于 Dear PyGui 的 C/C++ 底层实现
+  
 
-**Million-Point Graphs — 1M+ datapoints at 60 FPS**  
-百万级图表 —— 60 FPS 显示超过 100 万数据点  
+### 如果你已经厌倦了这场无限循环的噩梦
 
-**Full Compatibility — Works across the DPG 1.0+ ecosystem**  
-全版本兼容 —— 支持 DPG 1.0+ 全生态  
+Fastest Designer 将为你的代码与界面开启一条时空隧道。
 
-**Complete Widget Coverage**  
-完整组件支持 —— 覆盖 Dear PyGui 所有组件  
+让代码与效果之间，
+不再存在时间差。
 
----
+让冰冷的代码不再只是文字，
+每一次修改，都能即刻看到真实应用效果。
 
-## 🌍 Global Ready
+你的设计想法，
+触手可及。
 
-###  全球化支持
+------
 
-Designed for global creators.  
-为全球创作者而设计。
+# 🌌 你的应用与交互逻辑之间，仅仅相隔一个文件
 
-**Built-in Languages**  
-简体中文 · 繁体中文 · 日本語 · 한국어 · English · ไทย · Tiếng Việt  
+一份普通的 Python 文件，
 
-**Instant Switching — No restart required**  
-即时切换 —— 无需重启  
+成为两个时空唯一的交集。
 
-**Architecture-Level Translation System**  
-架构级翻译系统 —— 内置核心结构  
+你留下交互的暗号，
+我负责寻找对应的响应。
 
-**Extensible Language Framework**  
-可扩展语言框架 —— 遵循统一命名规则即可扩展  
+你不必知道我是谁，
+我也不必知道你是谁。
 
----
+我们保持独立，
+却彼此连接。
 
-## 🎨 Fastest & Designer
+让你的界面与交互逻辑保持同步，
 
-### Fastest is more than speed.  
+Fastest Designer 便是跨越设计与实现之间的时空隧道。
 
-### Designer is more than a tool.
+你的想法无需等待，
+即可实时呈现为真实应用。
 
 
-### But is that all?
 
-#### Fastest 代表速度、Designer 作为设计工具。
+# 🖱️ 熟悉的操作方式
 
-#### 可是，你真的认为，它仅此而已吗？
+你可以像使用其他设计器一样，
 
----
+直观地设计属于自己的界面。
 
-**Design Freedom — Real interactive component trees**  
-设计自由 —— 构建真实可交互的组件树  
+拖动控件，
+调整布局，
+修改属性，
 
-**WYSIWYG — Real widgets, real behavior**  
-所见即所得 —— 创建的部件即真实可交互部件  
+一切操作都保持简单直观。
 
-**Modern Theme Engine — Complete style control without code**  
-现代主题系统 —— 无需代码即可获得完整样式控制  
+没有额外的学习成本，
 
-**Skin Customization — Design your own visual identity**  
-皮肤自定义 —— 自由设计软件视觉风格  
+只有熟悉的操作方式。
 
-**Persistent Drafts — Save and restore anytime**  
-持久存储 —— 草稿随时保存与加载  
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/963233d5-525f-44b7-83af-f5057617e49c" width="80%">
-  <img src="https://github.com/user-attachments/assets/fb491e33-7753-4d82-bf33-9e813f6cc846" width="80%">
 
+# 🛠️ 全新的开发体验
 
-</p>
+你无需止步于眼前的界面，
 
----
+你甚至可以随时让你的界面拥有“技能” ——
 
-## 🧠 Dual-Mode Architecture
 
-### 双模式架构
+告诉我暗号（函数名），
 
-**Visual Design + Live Logic Binding**  
-可视化设计 + 实时逻辑绑定  
+我便帮你连接对应的代码逻辑。
 
-**Hot Reload — Modify logic without restarting**  
-热加载 —— 无需重启即可修改逻辑  
+你的代码，
 
-**Project-Scoped Modules — Each project can include its own third-party libraries**  
-项目级模块隔离 —— 每个项目可以携带独立的第三方库  
+始终由你掌控。
 
-**Flexible Python Runtime — Use system Python or built-in runtimes**  
-灵活 Python 运行环境 —— 支持系统 Python 或内置运行时，即使系统未安装 Python 也能编写和运行 Python 项目  
 
-**pip Integration — Install Python packages directly inside the designer**  
-pip 集成 —— 无需离开设计器即可安装 Python 模块  
 
-**Zero Repetition — Events are automatically bound during generation**  
-拒绝重复劳动 —— 设计阶段的事件将在生成代码时自动绑定  
 
-**Native Output — Pure Python source code**  
-原生代码 —— 生成纯 Python 源码  
+你亦可以与我协作 ——
 
-**No Plugins, No Extra Syntax — Just Python, just `import`**  
-无需插件，无新语法 —— 只需 Python，只需 `import`
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a4d83451-0b4e-4b03-8c7d-1bf3e48103d8" width="100%">
-</p>
+将设计好的界面交由你的 Python 世界。
 
+我负责连接你的设计与代码，
 
----
+让它成为真实应用的一部分。
 
-## ♻️ Reusable Assets
+你负责决定它如何进行交互，
 
-### 资源复用
+如何响应。
 
-Design once. Use anywhere.  
-一次设计，多处复用。
 
-Fastest Designer allows exporting any part of a project
-as reusable resources.
 
-Fastest Designer 支持将项目中的任意部分
-导出为可复用资源。
+# 🥽 让设计直接成为体验
 
-Resources can be exported in two formats:
+你的界面不再只是一个摆设，
 
-资源可以导出为两种格式：
+而是拥有生命的交互对象——
 
-- **Pure Python code** — ready to use in any project  
-  **纯 Python 代码** —— 可直接在任何项目中使用  
 
-- **FD resource files** — portable design assets that can be shared or distributed  
-  **FD 资源文件** —— 可分享、可分发的设计资源包
+当你的界面连接对应的技能后，
 
+你可以立即体验它的行为，
 
-**Exportable resources include:**  
-支持导出的资源包括：
+验证你的想法，
 
-- UI component trees  
-  UI 组件树  
+调整你的方向。
 
-- Theme configurations  
-  组件主题配置  
 
-- Color mappings  
-  颜色映射  
+设计与真实交互之间的距离，
 
-- Event handlers  
-  事件监听  
+仅仅是一次点击。
 
-- Interaction logic snippets  
-  交互逻辑片段  
 
-- **Interface skins and visual styles**  
-  **界面皮肤与视觉风格**
 
-Themes, skins, and UI structures can be exported,
-shared across projects, or distributed as reusable resources.
+# 🔓 别让复杂度束缚你的创意
 
-主题、皮肤与 UI 结构都可以导出，
-在不同项目间共享，或作为可复用资源进行分发。
+一个简单的窗口，
 
-All exported Python resources remain **standard Python code**.  
-No proprietary runtime required.
+一个简单的想法 ——
 
-所有导出的 Python 资源均为 **标准 Python 代码**，
 
-无需任何专有运行环境。
+你无需一开始就建造一座豪华大厦，
 
----
+可以从最初的雏形开始搭建。
 
-## 🛠 Developer Friendly
 
-###  开发者友好
+一个按钮，
 
-**Structured Generation — HTML-like hierarchy clarity**  
-结构化生成 —— 类似 HTML 层级结构  
+一次交互，
 
-**Editor Agnostic — Works with any editor**  
-协同开发 —— 支持任意编辑器  
+快速验证你的想法是否符合预期。
 
-**Developer Panels — Runtime inspection & event tools**  
-开发者工具 —— 运行时检测与事件管理  
 
-**Built-in Documentation — Searchable & editable**  
-内置文档 —— 支持检索与修改  
+无需重启，
 
----
+无需等待，
 
-## 📦 Workflow Completion
 
-###  完整工作流
+别让创意在繁琐的预览中溜走。
 
-1. Design UI visually  
-   以视觉方式设计界面  
 
-2. Bind logic dynamically  
-   动态绑定交互逻辑  
 
-3. Generate Python source code  
-   生成 Python 源代码  
+# 🌱 从一个界面，到完整应用
 
-4. Preview in isolated process  
-   独立进程预览  
+你认为一个界面到完整应用需要多久？
 
-5. Package and distribute  
-   打包与发布  
 
-All inside one environment.  
-全部在同一个环境中完成。
+设计（GIF），
 
----
-# Quick Start
-## 快速上手
-## 1.Create a Project / 创建项目
-<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/7ea67b9f-7a91-4e8f-b420-ca1bcd7a7847" />
+<img width="80%" height="80%" alt="设计" src="https://github.com/user-attachments/assets/41a5315f-4446-40d1-aada-75a2e58bcaa2" />
 
-## 2.Create Components / 创建组件
-<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/8f21d999-972e-4681-94ab-288bc770ff2f" />
+交互（GIF），
 
-## 3.Preview UI / 预览效果
-<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/bc3f573e-a70b-453b-91d7-175832831011" />
-<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/ccd952e8-2133-4d31-a595-e2a91db872ba" />
+<img width="80%" height="80%" alt="交互" src="https://github.com/user-attachments/assets/db9f9ca8-81c3-48fe-a845-2a584cef504c" />
 
-## 4.Generate Python Code / 生成代码
-<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/b5532b28-14d1-407a-88a1-79f2b00fe68c" />
-<img width="1902" height="1071" alt="image" src="https://github.com/user-attachments/assets/dd4057a8-777c-4b28-b6d6-03fb20603887" />
+测试（GIF），
 
-## 5. More / 更多高级操作
-For more advanced tutorials, feature demonstrations, and the latest updates, please follow:
+<img width="80%" height="80%" alt="预览" src="https://github.com/user-attachments/assets/df15a28a-e5b9-4f91-b65c-b4dc95c956c1" />
 
-更多高级教程、功能演示以及最新动态，请关注：
+
+打包发布（GIF）。
+
+<img width="80%" height="80%" alt="打包" src="https://github.com/user-attachments/assets/c0a0ebd1-71a7-4e75-92bc-44e8f4ee61ad" />
+
+
+从一个想法开始，
+
+直到成为真正可以使用的应用。
+
+
+你的创意，
+
+无需停留在脑海中，
+
+从屏幕上的实时交互开始验证，
+
+一步步成为真实存在的软件。
+
+
+
+# 🔄 你无需因我而改变
+
+没有新的语法 ——  
+
+FD 不需要额外的插件体系，
+
+无需学习新的开发方式。
+
+只需一句 import，
+
+便可以连接新的能力。
+
+
+无需改变你的项目结构 ——  
+
+FD 不会干涉你的项目组织方式。
+
+你与我的连接，
+
+仅依赖于一个固定的 Python 文件。
+
+
+无需改变你的工作习惯 ——  
+
+FD 不关心你使用何种编辑器编写代码。
+
+无论是专业 IDE，
+
+还是普通文本编辑器，
+
+你都可以继续使用熟悉的开发方式。
+
+
+无需改变你的代码 ——  
+
+只要是正常运行的 Python 代码，
+
+我便能够连接对应的交互逻辑。
+
+# ♾️ 你无需重复造轮子
+
+每一个界面，
+
+都不该随着一次修改而消失。
+
+
+每一次创造，
+
+都可以成为未来的一部分。
+
+
+Fastest Designer 能为你冻结每一条世界线，
+
+保存每一种可能。
+
+
+你可以重新组合它们，
+
+或者重新选择它们的发展方向。
+
+
+
+# 🧩 创意是能共享的
+
+<img width="70%" height="70%" alt="模板" src="https://github.com/user-attachments/assets/fb918aaa-beb3-4df1-94b1-51e14c77643d" />
+
+一条世界线分支，
+
+可以成为另一个创意的起点。
+
+
+一份主题设计，
+
+可以被重新组合成新的可能。
+
+
+Fastest Designer 不需要额外的插件体系，
+
+Python 本身就是连接世界的方式。
+
+
+每个人所创造的交互逻辑，
+
+都可以被分享、被复用、被再次创造。
+
+# 🌍 创意没有边界
+
+每一个想法，都不该被复杂的过程所束缚 ——
+
+
+在这里，你可以尽情发挥想象。
+
+
+一个界面、一段逻辑、一种全新的交互方式，
+
+
+它们可以自由组合，
+
+不断延伸，
+
+创造未曾存在的可能。
+
+
+Fastest Designer 缩短想法与现实之间的距离，
+
+
+让每一次灵感，都有机会成为真实存在的应用。
+
+
+
+# 🪄 唤醒沉睡的界面代码
+
+<img width="70%" height="70%" alt="fby" src="https://github.com/user-attachments/assets/324410e8-6f78-4690-876e-1cc29368a066" />
+
+
+生成的代码，
+
+不是应用的终点，
+
+而是一次中场休息。
+
+
+当你需要重新调整界面设计时，
+
+无需从零开始。
+
+
+Fastest Designer 将重新唤醒你的界面代码，
+
+让它再次回到可编辑的世界。
+
+
+曾经的结果，
+
+可以走向更好的未来。
+
+# 🚪 开启你的旅途
+
+Fastest Designer 不会替代任何人的位置，
+
+它仅仅缩短应用开发的距离。
+
+你依旧可以保持现有的一切，使用自己熟悉的开发方式。
+
+你的想法，
+
+你的代码，
+
+你的创造，
+
+依然由你掌控。
+
+# 🚀  下载
+
+[Windows版本][发布 · nehonpa/Fastest-Designer --- Releases · nehonpa/Fastest-Designer](https://github.com/nehonpa/Fastest-Designer/releases)
+
+
+
+# 📖 探索更多可能
+
+如果这是你第一次使用 Fastest Designer， 可以从快速入门开始：
+
+<a id="quick-start"></a>
+
+# ⚡快速上手
+
+## 1.创建项目
+
+<img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/7ea67b9f-7a91-4e8f-b420-ca1bcd7a7847" />
+
+## 2.创建组件
+
+<img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/8f21d999-972e-4681-94ab-288bc770ff2f" />
+
+## 3.预览效果
+
+<img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/bc3f573e-a70b-453b-91d7-175832831011" />
+<img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/ccd952e8-2133-4d31-a595-e2a91db872ba" />
+
+## 4. 生成代码
+
+
+<img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/b5532b28-14d1-407a-88a1-79f2b00fe68c" />
+<img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/dd4057a8-777c-4b28-b6d6-03fb20603887" />
+
+<a id="tutorials"></a>
+
+# 🎬 更多教程与动态 
+
+ 更多高级教程、功能演示以及最新动态，请关注：
 
 ### Bilibili
 
@@ -328,97 +449,34 @@ https://space.bilibili.com/34141306
 
 https://x.com/NeHonBa
 
-You can also check the latest Quick Start videos, feature introductions, and development updates on these platforms.
-
 您还可以在这些平台查看最新的快速入门教程、功能介绍以及开发进展。
 
-------
-# 👥 Who Is It For?
-
-### 适用人群
-
-- Designers avoiding boilerplate  
-  不想编写样板代码的设计师  
-
-- Beginners learning GUI architecture  
-  学习 GUI 架构的初学者  
-
-- Developers building rapid prototypes  
-  需要快速原型开发的开发者  
-
-- Teams requiring structural consistency  
-  需要统一界面结构的团队  
-
----
-
-# 💎 Comparison
-
-### 功能对照
-
-| Feature                     | 功能                 
-| --------------------------- | --------------------|
-| Visual UI Design            | 可视化界面设计       | 
-| Component Tree Editing      | 组件树编辑           |
-| Theme & Style Editing       | 主题与样式编辑       |
-| Basic Preview               | 基础预览运行         | 
-| Project Save                | 项目保存             |
-| Python Code Generation      | Python 代码生成      |
-| Packaging & Release         | 打包与发布           |
-| Multi-Interpreter Support   | 多解释器支持         |
-| Hot Reload                  | 热加载开发模式       |
-| Advanced Workflow Tools     | 高级工作流工具       |
-| Live Python Code Generation | 实时 Python 代码生成 |
-| Project Resource Sharing    | 项目资源分享         | 
 
 
----
-
-## 🚀 Future Roadmap / 未来规划
-
-We are building what you haven't imagined yet.  
-我们正在构建一些你还没想到的东西。
-
-What comes next?  
-下一步会是什么？
-
-You’ll see.  
-敬请期待。
-
----
-
-## Generated Code
-
-## 生成代码
-
-Code generated by Fastest Designer
-is licensed under the MIT License.
-
-Fastest Designer 生成的代码  
-采用 MIT 许可证模板。
-
-The copyright of generated code belongs to its creator.  
-生成代码的版权归创建者所有。
-
-We build the tool. You build the product.  
-我们构建工具，你构建作品。
-
-----
-
-# 📜 License
-
-### 许可证
+# 📜 许可证
 
 ## Fastest Designer
 
-Proprietary software.  
 © 2025 CH4·H2O. All rights reserved.  
 
 专有软件。版权所有。
 
+Fastest Designer 生成代码时，
+
+默认采用 MIT 许可证声明模板。
+
+在保留相关声明的前提下，
+
+生成代码的版权归创建者所有。
+
 ---
 
-**Fastest Designer is distributed as proprietary software.**  
-**The repository hosts releases and customizable resources.**
+# 🚀 未来规划
 
-**Fastest Designer 为专有软件发布。**  
-**本仓库主要提供程序发布包与可自定义资源。**
+Fastest Designer 的旅程才刚刚开始。
+
+ 我们正在探索更多连接设计、代码与创造的可能。
+
+ 下一步会是什么？ 
+
+敬请期待——
